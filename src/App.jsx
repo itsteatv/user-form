@@ -1,10 +1,9 @@
 import ThemeSwitcher from "./components/Theme Switcher/ThemeSwitcher";
-import "./App.css";
-import { useState } from "react";
 import User from "./components/Users/User";
-import UserList from "./components/Users/UserLIst";
+import UserList from "./components/Users/UserList";
 import Button from "./components/Modal/Button";
 import useLocalStorage from "./components/LocalStorage/useLocalStorage";
+import "./App.css";
 
 function App() {
   const [userList, setUserList] = useLocalStorage("userForm", []);
