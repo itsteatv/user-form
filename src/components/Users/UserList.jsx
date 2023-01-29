@@ -12,7 +12,7 @@ function UserList(props) {
   };
 
   return (
-    <div>
+    <div className="container">
       <ul>
       {props.user.map((user) => (
         <li key={user.id} id={user.id} >

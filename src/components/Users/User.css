@@ -30,7 +30,6 @@
 
 .form-container input:focus {
   outline: none;
-  background: transparent;
   color: hsl(var(--bg--dark));
   box-shadow: 0 0 0 0.2em hsl(var(--bg--light)),
     0 0 0 0.4em hsl(var(--accent--light) / 0.8);
