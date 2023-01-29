@@ -90,4 +90,6 @@ body {
   justify-content: center;
   align-items: center;
   touch-action: pan-y;
+  background-color: hsl(var(--bg));
+  color: hsl(var(--txt));
 }
