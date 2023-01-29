@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  transition: 0.3s;
+  padding: 1.25rem;
+  height: 1rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  background-color: hsl(var(--accent--light));
+  color: hsl(var(--bg--light));
+  border: #fff;
+  border-radius: 0.25rem;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:focus {
+  background-color: hsl(var(--accent--light) / 0.7);
+  box-shadow: 0 0 0 hsl(var(--accent--light) / 0.3), 0 0 0 -0.1em hsl(var(--bg)),
+    0 0 0 -0.2em hsl(var(--accent));
+}
