@@ -54,4 +54,4 @@ Start the server
 
 ## :trollface: Authors
 
-- [@itsteatv](https://www.github.com/octokatherine)
+- [@itsteatv](https://github.com/itsteatv)
